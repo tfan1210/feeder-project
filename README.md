@@ -5,8 +5,8 @@ The goal of this project is execute numbers of testing for an web-based applicat
 
 ## Instruction to Run APP
 
-#Option 1
+# Option 1
 Click on this link https://tfan1210.github.io/feeder-project/
 
-#Option 2
+# Option 2
 Git clone the repo and then open index.html
