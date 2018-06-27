@@ -1,7 +1,7 @@
 ## Udacity Front End Testing Project
 
 ## Overview
-This is a project from Udacity's Nanodegree program Front-End Web Developer. The goal of this project is execute a series of testing for an web-based application that reads RSS feeds using Jasmine testing framework.
+The goal of this project is execute numbers of testing for an web-based application that reads RSS feeds using Jasmine testing framework.
 
 ## Instruction to Run APP
 
