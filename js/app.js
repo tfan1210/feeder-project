@@ -126,7 +126,15 @@ $(function() {
     var item = $(this);
 
     $('body').addClass('menu-hidden');
-    loadFeed(item.data('id'));
+
+    // Load relevant feed, catching any error if out-of-bounds index used
+    // (This error mot likely to happen unless there is a serious bug.)
+    try {
+      loadFeed(item.data('id'));
+    } catch (e) {
+      console.warn(e);
+    }
+
     return false;
   });
 
